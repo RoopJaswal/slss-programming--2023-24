@@ -16,3 +16,10 @@ input("What was you favourite quote?")
 
 # Respond with something a human would say 
 print ("Your quote inspired me")
+
+# Ask the user what their favourite food is 
+fave_food = input ("What's your favourite food?")
+
+# Respond to their answer 
+print(f"Oooo, {fave_food} Sounds good.")
+
