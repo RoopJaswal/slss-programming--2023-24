@@ -39,3 +39,9 @@ input... -> value
 
 
 # [[Strings]]
+
+# [[Design]]
+
+## [[Lists]]
+
+# [[Modules]]
