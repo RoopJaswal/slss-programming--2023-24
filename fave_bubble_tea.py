@@ -35,5 +35,5 @@ for _ in range(NUM_RESPONDENTS):
 
 
         # Print a summary of the results
-print(coco_likes: 2f)
+print(coco_likes:2f)
 
