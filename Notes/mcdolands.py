@@ -30,5 +30,5 @@ if fries_price in ["yes", "sure", "yea", "yeah", "yes please", "yup"]:
 # Calculate the total price with taxes
 print(f"Your total price is ${total_price * 1.14}!")
 time.sleep(.5)
-print("How would you like to pay?")
+print("Would that be debit or credit?")
 

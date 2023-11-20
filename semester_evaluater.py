@@ -46,7 +46,7 @@ print(f"The average rating for your courses is: {average_rating:.2f} /5")
 
 if average_rating > 3:
     print("Glad to hear that!")
-2
+
 if average_rating == 3:
     print("Glad to hear that!")
 
