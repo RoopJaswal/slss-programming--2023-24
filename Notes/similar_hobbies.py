@@ -6,6 +6,21 @@ roop_fav_hobbies = [
     "Basketball",
     "Video Games",
     "Eating",
-    "Watching Movies"
+    "Watching Movies",
+    "Reading"
 ]
 
+sam_fav_hobbies = [
+    "Fortnite",
+    "Basketball",
+    "Watching Movies"
+    "Eating",
+    "Sleeping"
+]
+
+emily_fav_hobbies = [
+    "Eating",
+    "Sleeping",
+    "Reading",
+    "Drawing",
+]
