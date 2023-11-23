@@ -38,5 +38,3 @@ while not done:
         michaelangelo.backward(TURTLE_MAGNITUDE)
     elif command == "stop":
        done = True
-
-
