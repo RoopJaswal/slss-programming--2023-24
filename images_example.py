@@ -21,6 +21,26 @@ def pixel_to_name(pixel: tuple) -> str:
         return "unknown colour"
 
 with Image.open("./Images/kid-green.jpg") as im:
+    # grab the pixel at the top left corner
+
+    from PIL import Image
+
+#open up kid green
+
+def pixel_to_name(pixel: tuple) -> str:
+    """Given a pixel, return the name of the colour"""
+
+    # red less than 25
+    # blue less than 25
+    # green is more than 250
+    r, g, b = pixel
+
+    if r < 25 and b < 25 and g > 250:
+        return "green"
+    else:
+        return "unknown colour"
+
+with Image.open("./Images/kid-green.jpg") as im:
     # grab the pixel at the top left cornuh
     image_width, image_height = im.width, im.height
 
