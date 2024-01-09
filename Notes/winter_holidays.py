@@ -36,7 +36,7 @@ def winter_holidays(good_or_bad: str) -> str:
         ]
         return random.choice(winter_events)
     else:
-        return "Invalid input. Please specify 'good' or 'bad'."
+        return "Sorry I only take good or bad events."
 # Ask user for their winter break events/summary
 user_input = input("Was your winter holiday experience good or bad? ").strip().lower()
 # Get a random event based on the user input
