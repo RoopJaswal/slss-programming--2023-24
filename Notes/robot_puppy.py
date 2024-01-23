@@ -3,37 +3,36 @@
 # Jan 15, 2024 
 
 from PIL import Image 
-import colour_helper
 
-red = (255,0,0)
+ball_image = Image.open("./Images/Red Ball.jpeg")
 
-def pixel_to_name(pixel: tuple) -> str:
-    """Given a 3-tuple, return a string representing
-    its colour
+for y in range(ball_image.height):
+    for x in range(ball_image.width):
+        r, g, b = ball_image.getpixel((x,y))
 
-    Params:
-        pixel = 3-tuple of values (red, green, blue)
+        if 220 < r < 255 and 59 < g < 70 and 50 < b < 70: 
+            red_pixel_locs.append((x,y))
 
-    Returns:
-        name of the colour
-    """
-    red, green, blue = pixel
+x_coords = []
 
-    # TODO: detect red pixels
-    if red < 200 and blue < 200 and green > 220:
-        return "green"
-    elif red > 170 and green < 60 and blue < 60:
-        return "red"
-    else:
-        return "colour unknown"
+for loc in red_pixel_locs: 
+    x_coords.append(loc[0])
+    y_coords.append(loc[1])
 
-# Identify the red pixels in the image 
+min_x = 1_000_000
+max_x = -1
 
-# Pinpoint the location of the red pixels in the image 
+min_x 
 
-# Locate the x, y of the centre of the red ball 
+print(min_x, max_x, min_y, max_y)
 
+mid_x = max_x - (max_x - min_x)
+mid_y = max_y - (max_y - min_y)
 
+print(mid_x, mid_y)
 
-
-
+ball_image.putpixel((mid_x, mid_y) 255, 255, 0)
+ball_image.putpixel((mid_x +1 mid_y) 255, 255, 0)
+ball_image.putpixel((mid_x -1 mid_y) 255, 255, 0)
+ball_image.putpixel((mid_x, mid_y) 255, 255, 0)
+ball_image.putpixel((mid_x, mid_y) 255, 255, 0)
